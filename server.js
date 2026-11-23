@@ -2,7 +2,7 @@ const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const PORT = Number(process.env.PORT) || 3000;
+const PORT = process.env.PORT || 3000;
 const ROOT_DIR = fs.existsSync(path.join(__dirname, 'dist'))
   ? path.join(__dirname, 'dist')
   : __dirname;
@@ -58,6 +58,6 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, '0.0.0.0', () => {
-  console.log(`Moraprex server listening on port ${PORT}`);
+server.listen(PORT, () => {
+  console.log(`Moraprex server listening on ${PORT}`);
 });
