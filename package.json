@@ -2,10 +2,11 @@
   "name": "moraprex-website",
   "version": "1.0.0",
   "private": true,
+  "main": "server.js",
   "description": "Moraprex — Global OEM & ODM Apparel Manufacturing Group (Bangladesh & China)",
   "scripts": {
     "dev": "node server.js",
-    "build": "rm -rf dist && mkdir -p dist && cp -R index.html styles.css app.js robots.txt sitemap.xml llms.txt CNAME assets dist/",
+    "build": "rm -rf dist && mkdir -p dist && cp -R index.html styles.css robots.txt sitemap.xml llms.txt CNAME assets dist/",
     "start": "node server.js",
     "preview": "node server.js"
   }
