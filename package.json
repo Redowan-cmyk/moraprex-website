@@ -4,8 +4,9 @@
   "private": true,
   "description": "Moraprex — Global OEM & ODM Apparel Manufacturing Group (Bangladesh & China)",
   "scripts": {
-    "dev": "python3 -m http.server 8080",
+    "dev": "node server.js",
     "build": "rm -rf dist && mkdir -p dist && cp -R index.html styles.css app.js robots.txt sitemap.xml llms.txt CNAME assets dist/",
-    "preview": "python3 -m http.server 4173 --directory dist"
+    "start": "node server.js",
+    "preview": "node server.js"
   }
 }
