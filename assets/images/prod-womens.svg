@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Technical specification illustration of Moraprex women's tailored blazers, dresses, and blouses">
+  <defs>
+    <linearGradient id="bg-women" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7F4EF"/>
+      <stop offset="100%" stop-color="#EAE2D6"/>
+    </linearGradient>
+    <pattern id="grid-women" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#D9CFC0" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-women)"/>
+  <rect width="800" height="600" fill="url(#grid-women)" opacity="0.65"/>
+  <!-- Tailored Women's Blazer -->
+  <g transform="translate(175, 80)" stroke="#292524" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 160 15 L 290 15 L 358 42 L 430 270 L 386 286 L 340 140 L 346 410 L 235 410 L 225 220 L 215 410 L 104 410 L 110 140 L 64 286 L 20 270 L 92 42 Z" fill="#C9A882"/>
+    <!-- Notched Lapels -->
+    <path d="M 160 15 L 145 105 L 188 125 L 225 220 L 190 15 Z" fill="#B8936A"/>
+    <path d="M 290 15 L 305 105 L 262 125 L 225 220 L 260 15 Z" fill="#B8936A"/>
+    <!-- Princess Darts & Welt Pockets -->
+    <path d="M 155 135 Q 168 230 150 385" fill="none" stroke="#57534E" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <path d="M 295 135 Q 282 230 300 385" fill="none" stroke="#57534E" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <rect x="122" y="295" width="58" height="10" fill="#292524"/>
+    <rect x="270" y="295" width="58" height="10" fill="#292524"/>
+    <circle cx="225" cy="242" r="5" fill="#292524"/>
+  </g>
+  <g font-family="monospace" font-size="12" fill="#334155">
+    <text x="40" y="48" font-weight="bold" letter-spacing="2">SPEC // WOMENSWEAR &amp; TAILORING</text>
+    <text x="40" y="558">LINEN-VISCOSE, TENCEL &amp; SILK-TOUCH  •  FULL BEMBERG LINING  •  CAD DRAPED</text>
+  </g>
+</svg>

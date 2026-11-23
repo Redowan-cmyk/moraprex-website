@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Technical specification illustration of Moraprex woven dress shirts and Oxford button-downs">
+  <defs>
+    <linearGradient id="bg-shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6F5F1"/>
+      <stop offset="100%" stop-color="#E5E3DD"/>
+    </linearGradient>
+    <pattern id="grid-shirt" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#D4D2CA" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-shirt)"/>
+  <rect width="800" height="600" fill="url(#grid-shirt)" opacity="0.65"/>
+  <!-- Tailored Woven Shirt -->
+  <g transform="translate(170, 75)" stroke="#1E3A5F" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 165 18 L 295 18 L 365 44 L 445 255 L 402 275 L 348 135 L 348 415 Q 230 438 112 415 L 112 135 L 58 275 L 15 255 L 95 44 Z" fill="#DCE6F1"/>
+    <!-- Collar & Placket -->
+    <path d="M 165 18 L 200 72 L 230 40 L 260 72 L 295 18 Z" fill="#FFFFFF"/>
+    <rect x="218" y="42" width="24" height="378" fill="#F8FAFC" stroke-width="1.6"/>
+    <!-- Buttons -->
+    <circle cx="230" cy="70" r="3.5" fill="#1E3A5F"/>
+    <circle cx="230" cy="125" r="3.5" fill="#1E3A5F"/>
+    <circle cx="230" cy="180" r="3.5" fill="#1E3A5F"/>
+    <circle cx="230" cy="235" r="3.5" fill="#1E3A5F"/>
+    <circle cx="230" cy="290" r="3.5" fill="#1E3A5F"/>
+    <circle cx="230" cy="345" r="3.5" fill="#1E3A5F"/>
+    <!-- Chest pocket -->
+    <path d="M 272 135 L 322 135 L 322 186 L 297 198 L 272 186 Z" fill="#EFF5FA" stroke-width="1.8"/>
+    <!-- Cuffs -->
+    <path d="M 15 255 L 58 275 L 48 298 L 5 278 Z" fill="#FFFFFF"/>
+    <path d="M 445 255 L 402 275 L 412 298 L 455 278 Z" fill="#FFFFFF"/>
+  </g>
+  <g font-family="monospace" font-size="12" fill="#334155">
+    <text x="40" y="48" font-weight="bold" letter-spacing="2">SPEC // WOVEN SHIRTS &amp; OXFORD</text>
+    <text x="40" y="558">2-PLY 80s/100s POPLIN &amp; LINEN  •  SINGLE-NEEDLE 22 SPI  •  MOP BUTTONS</text>
+  </g>
+</svg>
